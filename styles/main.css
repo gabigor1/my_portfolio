@@ -160,15 +160,20 @@ hr {
 
 .icons {
   display: flex;
-  cursor: pointer;
 }
 
 .icons a {
   margin: 0px 10px;
 }
 
-.icons a:hover {
-  color: grey;
+.icons button {
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icons button:hover {
+  background-color: grey;
 }
 
 .experience-content h2 {
